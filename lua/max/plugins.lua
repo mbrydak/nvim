@@ -40,4 +40,9 @@ config = function ()
   require("copilot_cmp").setup()
 end
 },
+{
+  "nvim-treesitter/nvim-treesitter",
+  run = ":TSUpdate",
+},
+{"nvim-treesitter/playground"},
 })
